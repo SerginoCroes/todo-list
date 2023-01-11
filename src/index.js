@@ -1,13 +1,9 @@
 import { drawFooter } from "./footer";
 import { drawHeader } from "./header";
+import { drawMenu } from "./menu";
 
 const content = document.querySelector('#content');
 
-
-console.log('test');
-console.log(content);
-console.log(drawHeader());
-
-
 content.appendChild(drawHeader());
+content.appendChild(drawMenu());
 content.appendChild(drawFooter());
