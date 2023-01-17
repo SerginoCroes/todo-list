@@ -1,0 +1,13 @@
+draw page
+add event listeners for buttons
+
+add todo items to list when button pressed
+
+
+======================================
+Todo array
+
+manipulation methods
+
+draw functions
+======================================

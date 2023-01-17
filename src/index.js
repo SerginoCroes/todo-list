@@ -1,9 +1,7 @@
-import { drawFooter } from "./footer";
-import { drawHeader } from "./header";
-import { drawMenu } from "./menu";
+import { drawHeader, drawMenu ,drawFooter, drawDialog } from "./draw";
+//import { addTask, readTask } from "./task";
 
-const content = document.querySelector('#content');
-
-content.appendChild(drawHeader());
-content.appendChild(drawMenu());
-content.appendChild(drawFooter());
+drawHeader();
+drawMenu();
+drawFooter();
+drawDialog();

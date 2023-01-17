@@ -39,8 +39,9 @@ button:hover {
 }
 
 .menu {
-    background-color: #fdd;
     padding: 10px;
+    grid-area: menu;
+    background-color: #fdd;
 }
 
 .menu p {
@@ -54,4 +55,64 @@ button:hover {
     grid-area: footer;
     text-align: center;
     background-color: #ddd;
+}
+
+.main {
+    grid-area: maincontent;
+    width: 100%;
+    padding: 10px;
+}
+
+.dialog {
+    position: fixed;
+    width: 300px;
+    flex-direction: column;
+    left: calc(50% - 150px);
+    padding: 20px 30px;
+    margin: 120px auto;
+    border: 1px solid #fff;
+    background-color: #fdd;
+    display: none;
+}
+
+.dialog h2 {
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.dialog input {
+    padding: 0px 5px;
+    width: 180px;
+}
+
+.inputdiv {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttondiv  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv button {
+    width: 50%;
+}
+
+.addbutton {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.taskbox {
+    position: relative;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    margin: 0.2rem;
+    width: 40%;
+    background-color: #fdd;
 }
